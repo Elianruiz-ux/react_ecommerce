@@ -25,11 +25,26 @@ main{
   flex: 1;
 }
 
+.btn-primary {
+  background-color: #f0c040;
+  border: none;
+  color: #404040;
+}
+.btn-primary:hover{
+  background-color: #e1ac1b;
+  color: #404040;
+}
+
 .products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.rating span{
+  color: #ffc000;
+}
+
 .product{
   border: 1px solid #404040;
   margin: 1rem;
@@ -42,4 +57,12 @@ main{
 
 .product__info{
   padding: 1rem;
+}
+
+.img-large{
+  max-width: 100%;
+}
+
+.img-thumbnail{
+  height: 80px;
 }
