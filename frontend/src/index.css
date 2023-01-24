@@ -70,3 +70,12 @@ main{
 .small-container{
   max-width: 600px;
 }
+
+/* .error{
+  font-size: 0.8em;
+  padding: 8px;
+  background-color: rgba(255, 0, 0, 0.288);
+  width: 100%;
+  border: 1px solid rgba(255, 0, 0, 0.765);
+  border-radius: 5px;
+} */
